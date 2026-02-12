@@ -1,0 +1,35 @@
+[
+    {
+        "title": "International Packages",
+        "price": "Starting from Rs250,000",
+        "description": "International packages price details",
+        "btn": "Click here to Download",
+        "img": "../media/internationalpricelist.png",
+        "link": "../pricelistdocuments/internationalpkgPricelist.docx"
+    },
+    {
+        "title": "Hill Station Packages",
+        "price": "Starting from Rs100,000",
+        "description": "Hill Station packages price details",
+        "btn": "Click here to Download",
+        "img": "../media/hillpricelist.png",
+        "link": "../pricelistdocuments/hillstationpkgPricelist.docx"
+    },
+    {
+        "title": "Hajj & Umarh Packages",
+        "price": "Starting from Rs450,000",
+        "description": "Hajj & Umrah packages price details",
+        "btn": "Click here to Download",
+        "img": "../media/hajj&umrahpricelist.png",
+        "link": "../pricelistdocuments/hajjumrahpkgPricelist.docx"
+    },
+    {
+        "title": "Domestic Packages",
+        "price": "Starting from Rs150,000",
+        "description": "Domestic packages price details",
+        "btn": "Click here to Download",
+        "img": "../media/domesticpricelist.png",
+        "link": "../pricelistdocuments/domesticpkgPricelist.docx"
+
+    }
+]

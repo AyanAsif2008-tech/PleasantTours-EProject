@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hill Station</title>
+    <link rel="stylesheet" href="./css/scrollbar.css">
+    <link rel="stylesheet" href="./css/style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div id="loading-screen">
+        <img src="./media/logo.png" class="invert" alt="Company Logo" id="loading-logo">
+
+    </div>
+      <!-- navbar start -->
+    <div class="nav flex items-center justify-between px-6 py-4 relative bg-white shadow">
+
+        <div class="logo">
+            <img src="./media/logo.png" class="h-10 invert">
+        </div>
+        <div id="menuBtn" class="hamburger md:hidden">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <div class="items hidden md:block">
+            <ul class="flex gap-6 items-center">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Tour Packages<i class="ri-arrow-drop-up-line"></i>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./international.html">International Packages</a>
+                        <a href="./hillstation.html">Hill Stations</a>
+                        <a href="./hajjumrah.html">Hajj & Umrah Packages</a>
+                        <a href="./domestic.html">Domestic Packages</a>
+                    </div>
+                </div>
+
+                <li><a href="./pricelist.html">Price list</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+     
+<div id="mobileMenu" class="mobile-menu">
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./international.html">International</a></li>
+        <li><a href="./hillstation.html">Hill Stations</a></li>
+        <li><a href="./hajjumrah.html">Hajj & Umrah</a></li>
+        <li><a href="./domestic.html">Domestic</a></li>
+        <li><a href="./pricelist.html">Price List</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+    </ul>
+</div>
+
+
+    </div>
+    <!-- navbar end -->
+             <!-- cards -->
+      <h2 id="title"></h2>
+  <div class="cards"></div>
+      <!-- end -->
+     <!-- footer start -->
+    <footer class="footer">
+
+        <div class="footer-grid">
+
+            <!-- Brand -->
+            <div class="title">
+                <h1 class="heading">Pleasant Tours</h1>
+                <p>
+                    Explore the world with us
+                    We offer beach tours, hill stations, family trips, honeymoon packages and Hajj & Umrah services.
+                    Your dream destinations start here.
+                </p>
+            </div>
+
+            <!-- Contact -->
+            <div class="contact">
+                <h3 class="heading">Contact Us</h3>
+                <div><i class="ri-map-pin-line"></i> Karachi, Pakistan</div>
+                <div><i class="ri-phone-line"></i> +92 300 1234567</div>
+                <div><i class="ri-mail-line"></i> pleasanttravel@gmail.com</div>
+            </div>
+
+            <!-- Links -->
+            <div class="links">
+             <h3 class="heading">Explore</h3>
+                 <a href="./index.html">Home</a>
+                <a href="./about.html">About Us</a>
+                <a href="./pricelist.html">Pricelist</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./package-detail.html">Details</a>
+            </div>
+
+            <!-- Social -->
+            <div>
+                <h3 class="heading">Follow Us</h3>
+                <div class="social">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-twitter-x-line"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+            @2026 Pleasant Tour All Rights Reserved
+        </div>
+
+    </footer>
+
+    <!-- footer end -->
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+[
+  {
+    "category": "international",
+    "heading": "International Packages",
+    "items": [
+      {
+        "id": 1,
+        "title": "Dubai Tour",
+        "duration": "5Days/4Nights",
+        "price": "Rs 55000",
+        "quant": "Price per person",
+        "image": "../media/dubai.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Thailand Tour",
+        "duration": "6Days/5Nights",
+        "price": "Rs 48000",
+        "quant": "Price per person",
+        "image": "../media/thailand.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Malaysia Tour",
+        "duration": "5Days/4Nights",
+        "price": "Rs 52000",
+        "quant": "Price per person",
+        "image": "../media/malaysia.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Singapore Tour",
+        "duration": "4Days/3Nights",
+        "price": "Rs 60000",
+        "quant": "Price per person",
+        "image": "../media/singapore.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Bali Tour",
+        "duration": "6Days/5Nights",
+        "price": "Rs 58000",
+        "quant": "Price per person",
+        "image": "../media/bali.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Turkey Tour",
+        "duration": "7Days/6Nights",
+        "price": "Rs 75000",
+        "quant": "Price per person",
+        "image": "../media/turkey.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Paris Tour",
+        "duration": "6Days/5Nights",
+        "price": "Rs 120000",
+        "quant": "Price per person",
+        "image": "../media/paris.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Maldives Tour",
+        "duration": "4Days/3Nights",
+        "price": "Rs 90000",
+        "quant": "Price per person",
+        "image": "../media/maldives.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Switzerland Tour",
+        "duration": "7Days/6Nights",
+        "price": "Rs 150000",
+        "quant": "Price per person",
+        "image": "../media/switzerland.jpg"
+      }
+    ]
+  },
+  {
+    "category": "hajjumrah",
+    "heading": "Hajj & Umrah Packages",
+    "items": [
+      {
+        "id": 10,
+        "title": "Umrah Economy",
+        "duration": "15 Days",
+        "price": "Rs 125000",
+        "quant": "Price per person",
+        "image": "../media/umrah-economy.jpg"
+      },
+      {
+        "id": 11,
+        "title": "Umrah Standard",
+        "duration": "20 Days",
+        "price": "Rs 145000",
+        "quant": "Price per person",
+        "image": "../media/umrah-standard.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Umrah Premium",
+        "duration": "25 Days",
+        "price": "Rs 185000",
+        "quant": "Price per person",
+        "image": "../media/umrah-premium.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Ramzan Umrah",
+        "duration": "20 Days",
+        "price": "Rs 210000",
+        "quant": "Price per person",
+        "image": "../media/ramzan-umrah.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Shabaan Umrah",
+        "duration": "15 Days",
+        "price": "Rs 160000",
+        "quant": "Price per person",
+        "image": "../media/shabaan-umrah.jpg"
+      },
+      {
+        "id": 15,
+        "title": "Family Umrah",
+        "duration": "18 Days",
+        "price": "Rs 175000",
+        "quant": "Price per person",
+        "image": "../media/family-umrah.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Group Umrah",
+        "duration": "20 Days",
+        "price": "Rs 155000",
+        "quant": "Price per person",
+        "image": "../media/group-umrah.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Hajj Economy",
+        "duration": "40 Days",
+        "price": "Rs 450000",
+        "quant": "Price per person",
+        "image": "../media/hajj-economy.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Hajj Premium",
+        "duration": "45 Days",
+        "price": "Rs 650000",
+        "quant": "Price per person",
+        "image": "../media/hajj-premium.jpg"
+      }
+    ]
+  },
+  {
+    "category": "hillstation",
+    "heading": "Hill Station Packages",
+    "items": [
+      {
+        "id": 19,
+        "title": "Murree Tour",
+        "duration": "3Days/2Nights",
+        "price": "Rs 15000",
+        "quant": "Price per person",
+        "image": "../media/murree.jpg"
+      },
+      {
+        "id": 20,
+        "title": "Nathia Gali Tour",
+        "duration": "3Days/2Nights",
+        "price": "Rs 16000",
+        "quant": "Price per person",
+        "image": "../media/nathia-gali.jpg"
+      },
+      {
+        "id": 21,
+        "title": "Ayubia Tour",
+        "duration": "3Days/2Nights",
+        "price": "Rs 17000",
+        "quant": "Price per person",
+        "image": "../media/ayubia.jpg"
+      },
+      {
+        "id": 22,
+        "title": "Skardu Tour",
+        "duration": "5Days/4Nights",
+        "price": "Rs 50000",
+        "quant": "Price per person",
+        "image": "../media/skardu.jpg"
+      },
+      {
+        "id": 23,
+        "title": "Hunza Tour",
+        "duration": "5Days/4Nights",
+        "price": "Rs 55000",
+        "quant": "Price per person",
+        "image": "../media/hunza.jpg"
+      },
+      {
+        "id": 24,
+        "title": "Naran Kaghan Tour",
+        "duration": "4Days/3Nights",
+        "price": "Rs 35000",
+        "quant": "Price per person",
+        "image": "../media/naran.jpg"
+      },
+      {
+        "id": 25,
+        "title": "Swat Valley Tour",
+        "duration": "4Days/3Nights",
+        "price": "Rs 30000",
+        "quant": "Price per person",
+        "image": "../media/swat.jpg"
+      },
+      {
+        "id": 26,
+        "title": "Fairy Meadows Tour",
+        "duration": "6Days/5Nights",
+        "price": "Rs 60000",
+        "quant": "Price per person",
+        "image": "../media/fairy-meadows.jpg"
+      },
+      {
+        "id": 27,
+        "title": "Chitral Tour",
+        "duration": "5Days/4Nights",
+        "price": "Rs 52000",
+        "quant": "Price per person",
+        "image": "../media/chitral.jpg"
+      }
+    ]
+  },
+  {
+    "category": "domestic",
+    "heading": "Domestic Packages",
+    "items": [
+      {
+        "id": 28,
+        "title": "Karachi City Tour",
+        "duration": "3Days/2Nights",
+        "price": "Rs 12000",
+        "quant": "Price per person",
+        "image": "../media/karachi.jpg"
+      },
+      {
+        "id": 29,
+        "title": "Lahore City Tour",
+        "duration": "3Days/2Nights",
+        "price": "Rs 14000",
+        "quant": "Price per person",
+        "image": "../media/lahore.jpg"
+      },
+      {
+        "id": 30,
+        "title": "Islamabad Tour",
+        "duration": "3Days/2Nights",
+        "price": "Rs 15000",
+        "quant": "Price per person",
+        "image": "../media/islamabad.jpg"
+      },
+      {
+        "id": 31,
+        "title": "Multan Heritage Tour",
+        "duration": "4Days/3Nights",
+        "price": "Rs 18000",
+        "quant": "Price per person",
+        "image": "../media/multan.jpg"
+      },
+      {
+        "id": 32,
+        "title": "Peshawar Tour",
+        "duration": "3Days/2Nights",
+        "price": "Rs 13000",
+        "quant": "Price per person",
+        "image": "../media/peshawar.jpg"
+      },
+      {
+        "id": 33,
+        "title": "Quetta Tour",
+        "duration": "4Days/3Nights",
+        "price": "Rs 20000",
+        "quant": "Price per person",
+        "image": "../media/quetta.jpg"
+      },
+      {
+        "id": 34,
+        "title": "Murree Short Trip",
+        "duration": "2Days/1Night",
+        "price": "Rs 10000",
+        "quant": "Price per person",
+        "image": "../media/murree.jpg"
+      },
+      {
+        "id": 35,
+        "title": "Naran Kaghan Short Trip",
+        "duration": "3Days/2Nights",
+        "price": "Rs 18000",
+        "quant": "Price per person",
+        "image": "../media/naran.jpg"
+      },
+      {
+        "id": 36,
+        "title": "Gwadar Beach Tour",
+        "duration": "4Days/3Nights",
+        "price": "Rs 25000",
+        "quant": "Price per person",
+        "image": "../media/gawadar.jpg"
+      }
+    ]
+  }
+]

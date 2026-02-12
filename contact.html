@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loading-screen">
+        <img src="./media/logo.png" class="invert" alt="Company Logo" id="loading-logo">
+
+    </div>
+    <!-- navbar start -->
+    <div class="nav flex items-center justify-between px-6 py-4 relative bg-white shadow">
+
+        <div class="logo">
+            <img src="./media/logo.png" class="h-10 invert">
+        </div>
+
+        <div id="menuBtn" class="hamburger md:hidden">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <div class="items hidden md:block">
+            <ul class="flex gap-6 items-center">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Tour Packages<i class="ri-arrow-drop-up-line"></i>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./international.html">International Packages</a>
+                        <a href="./hillstation.html">Hill Stations</a>
+                        <a href="./hajjumrah.html">Hajj & Umrah Packages</a>
+                        <a href="./domestic.html">Domestic Packages</a>
+                    </div>
+                </div>
+
+                <li><a href="./pricelist.html">Price list</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div id="mobileMenu" class="mobile-menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./international.html">International</a></li>
+                <li><a href="./hillstation.html">Hill Stations</a></li>
+                <li><a href="./hajjumrah.html">Hajj & Umrah</a></li>
+                <li><a href="./domestic.html">Domestic</a></li>
+                <li><a href="./pricelist.html">Price List</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+
+
+
+    </div>
+    <!-- navbar end -->
+
+    <div class="contact-header">
+        <div class="contact-content">
+            <h1 class="heading text-6xl">Contact Us</h1>
+        </div>
+    </div>
+
+    <!-- contact start -->
+    <div class="two-columns">
+        <div class="left">
+            <div class="header-title">
+                <h1>Start Your Journey</h1>
+                <p>At Pleasant Tours, we're here to help you plan unforgettable journeys. Whether you're
+                    looking for
+                    international tour packages, domestic trips, or Hajj & Umrah services, Our friendly team is always
+                    ready to
+                    assist you.</p>
+            </div>
+            <div class="reason">
+                <h1>-Why Travel With Pleasant Tours-</h1>
+                <p>We provide trusted travel services, customized packages, and full customer support to ensure your
+                    trip is pleasant from start to finish.</p>
+                <ul>
+                    <li><i class="ri-check-line" style="font-size: 20px;"></i>Expert Guidance</li>
+                    <li><i class="ri-check-line" style="font-size: 20px;"></i>Personalized Packages</li>
+                    <li><i class="ri-check-line" style="font-size: 20px;"></i>Affordable Rates</li>
+                    <li><i class="ri-check-line" style="font-size: 20px;"></i>Reliable Support</li>
+                    <li><i class="ri-check-line" style="font-size: 20px;"></i>Memorable Experiences</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right" style="border: none;">
+            <h1>Reach Out</h1>
+            <p>Share your details with us and our team will contact you shortly to help plan your perfect trip</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="pkg" placeholder="Your package">
+                    <span class="val-msg"></span>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Name*">
+                        <span class="val-msg"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="cemail" placeholder="Corporate email*">
+                        <span class="val-msg"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <input type="number" id="contact" placeholder="Phone number">
+                        <span class="val-msg"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="company" placeholder="Company">
+                        <span class="val-msg"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="msg" placeholder="Your Message"></textarea>
+                    <span class="val-msg"></span>
+                </div>
+
+                <button>Send Message</button>
+            </form>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <section class="get-touch-banner">
+
+        <h2>Get In Touch</h2>
+
+        <div class="contact-row">
+
+            <div class="contact-item">
+                <i class="ri-mail-line"></i>
+                <span>contact@company.com</span>
+            </div>
+
+            <div class="contact-item">
+                <i class="ri-phone-line"></i>
+                <span>+92 300 1234567</span>
+            </div>
+
+            <div class="contact-item">
+                <i class="ri-map-pin-line"></i>
+                <span>123 Innovation Street, Karachi</span>
+            </div>
+
+        </div>
+
+        <div class="social">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-linkedin-fill"></i>
+            <i class="ri-twitter-x-line"></i>
+        </div>
+
+    </section>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.017006423857!2d67.07182317529663!3d24.86326874514532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2s!4v1769519640826!5m2!1sen!2s"
+         height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- footer start -->
+    <footer class="footer">
+
+        <div class="footer-grid">
+
+            <!-- Brand -->
+            <div class="title">
+                <h1 class="heading">Pleasant Tours</h1>
+                <p>
+                    Explore the world with us
+                    We offer beach tours, hill stations, family trips, honeymoon packages and Hajj & Umrah services.
+                    Your dream destinations start here.
+                </p>
+            </div>
+
+            <!-- Contact -->
+            <div class="contact">
+                <h3 class="heading">Contact Us</h3>
+                <div><i class="ri-map-pin-line"></i> Karachi, Pakistan</div>
+                <div><i class="ri-phone-line"></i> +92 300 1234567</div>
+                <div><i class="ri-mail-line"></i> pleasanttravel@gmail.com</div>
+            </div>
+
+            <!-- Links -->
+            <div class="links">
+                <h3 class="heading">Explore</h3>
+               <a href="./index.html">Home</a>
+                <a href="./about.html">About Us</a>
+                <a href="./pricelist.html">Pricelist</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./package-detail.html">Details</a>
+            </div>
+
+            <!-- Social -->
+            <div>
+                <h3 class="heading">Follow Us</h3>
+                <div class="social">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-twitter-x-line"></i></a>
+                    <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+            @2026 Pleasant Tour All Rights Reserved
+        </div>
+
+    </footer>
+    <!-- footer end -->
+    <!-- contact end -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+
+</html>
