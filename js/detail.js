@@ -23,17 +23,17 @@ fetch("../data/detail.json")
 
             <div class="details-section">
                 <div>
-                    <i class="ri-calendar-fill"></i>
+                    <i class="ri-calendar-fill" style="color: #b9a50e"></i>
                     <p>${selectedpkg.duration_title}</p>
                     <p>${selectedpkg.time}</p>
                 </div>
                 <div>
-                    <i class="ri-group-fill"></i>
+                    <i class="ri-group-fill" style="color: #b9a50e"></i>
                     <p>${selectedpkg.grp_title}</p>
                     <p>${selectedpkg.people}</p>
                 </div>
                 <div>
-                    <i class="ri-map-pin-fill"></i>
+                    <i class="ri-map-pin-fill" style="color: #b9a50e"></i>
                     <p>${selectedpkg.Type_title}</p>
                     <p>${selectedpkg.type}</p>
                 </div>
