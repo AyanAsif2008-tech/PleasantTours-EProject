@@ -1,14 +1,11 @@
 
-// international
+// card for category
 fetch("../data/category.json")
   .then(res => res.json())
   .then(data => {
-
     const isHome = document.getElementById("allCategories") ? true : false;
-
     if (isHome) {
       const wrap = document.getElementById("allCategories");
-
       data.forEach(cat => {
         wrap.innerHTML += `
         <section class="category">
@@ -18,9 +15,7 @@ fetch("../data/category.json")
           <div class="cards"></div>
         </section>
       `;
-
         const box = wrap.querySelector(".category:last-child .cards");
-
         cat.items.slice(0,3).forEach(item => {
           box.innerHTML += `
           <div class="card">
@@ -48,7 +43,6 @@ fetch("../data/category.json")
 
       document.getElementById("title").innerText = selected.heading;
       const box = document.querySelector(".cards");
-
       selected.items.forEach(item => {
         box.innerHTML += `
         <div class="card">
@@ -59,8 +53,7 @@ fetch("../data/category.json")
              <h4>${item.title}</h4>
               <p>${item.duration}</p>
           <h3>${item.price}</h3>
-            <p>${item.quant}</p>
-            
+            <p>${item.quant}</p> 
           </div>
           <div class="c-btn">
             <button><a href="./pkg-detail.html?id=${item.id}">View Details</a></button>
@@ -83,7 +76,7 @@ menuBtn.addEventListener("click",()=>{
 // end
 
 
-// end
+//loader
 window.addEventListener("load", function () {
   let loadingScreen = document.getElementById("loading-screen");
 

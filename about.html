@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -71,9 +72,7 @@
     <!-- navbar end -->
     <!-- about start -->
     <div class="about-header">
-        <!-- <video class="bg-video" autoplay muted loop playsinline>
-            <source src="./media/bgvideo.mp4" type="video/mp4">
-        </video> -->
+
         <div class="about-content">
             <h1 class="heading text-6xl">About Us</h1>
             <p class="about-text">
@@ -113,7 +112,7 @@
 
 
     <div class="about-journey">
-        <div class="journey">
+        <div class="journey" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
             <h1 class="head">Our Journey</h1>
             <p>The journey of Pleasant Tours began with a simple dream to make travel easy,
                 affordable, and memorable for everyone. What started as a small idea has grown into a trusted
@@ -133,7 +132,7 @@
         </div>
 
         <div class="plane">
-            <img src="./media/aeroplane.png" alt="">
+            <img src="./media/aeroplane.png" alt="" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
         </div>
 
 
@@ -194,6 +193,10 @@
 
 
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
