@@ -69,7 +69,7 @@ fetch("../data/detail.json")
                 <p>${selectedpkg.price_title}</p>
                 <p class="price">${selectedpkg.price}</p>
 
-                <button>${selectedpkg.booknow_btn}</button>
+               <a href="./contact.html"><button>${selectedpkg.booknow_btn}</button></a>
 
             </div>
 

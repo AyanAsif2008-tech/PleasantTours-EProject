@@ -85,7 +85,7 @@ window.addEventListener("load", function () {
     setTimeout(() => {
       loadingScreen.style.display = "none";
     }, 500);
-  }, 1000);
+  }, 100);
 });
 
 
